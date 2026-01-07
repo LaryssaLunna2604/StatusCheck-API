@@ -1,0 +1,10 @@
+public class StatusService {
+
+    public String obterStatus() {
+        return "Sistema online";
+    }
+
+    public void mostrarStatus() {
+        System.out.println(obterStatus());
+    }
+}
